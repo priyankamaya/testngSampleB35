@@ -38,6 +38,8 @@ public void setup()
 	  softAssert.assertEquals(driver.getTitle(),"Java Tutorial - Google Search");
 	  softAssert.assertAll();
 	  
+	  //
+	  
 }
 //@Test( priority=2)
  @Test
