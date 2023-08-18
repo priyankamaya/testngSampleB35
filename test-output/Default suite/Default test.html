@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 17 06:58:33 GMT 2023</td>
+<td>Started on:</td><td>Fri Aug 18 07:45:29 GMT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18797 ms)</td>
+<tr><td>Total time:</td><td>16 seconds (16466 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScripts.GooglePageTest.searchJavaTest()'><b>searchJavaTest</b><br>Test class: testScripts.GooglePageTest</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Google Page] but found [Google]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at testScripts.GooglePageTest.searchJavaTest(GooglePageTest.java:39)
+<td title='testScripts.GooglePageTest.searchCucumberTest()'><b>searchCucumberTest</b><br>Test class: testScripts.GooglePageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Cucumber Tutorial - Google Search Page] but found [Cucumber Tutorial - Google Search]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testScripts.GooglePageTest.searchCucumberTest(GooglePageTest.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,12 +113,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2052814491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2052814491'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Google Page] but found [Google]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at testScripts.GooglePageTest.searchJavaTest(GooglePageTest.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1021656938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1021656938'><pre>java.lang.AssertionError: expected [Cucumber Tutorial - Google Search Page] but found [Cucumber Tutorial - Google Search]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testScripts.GooglePageTest.searchCucumberTest(GooglePageTest.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -146,7 +152,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>4</td>
-<td>testScripts.GooglePageTest@6bd61f98</td></tr>
+<td>testScripts.GooglePageTest@3f6f6701</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -159,18 +165,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.GooglePageTest.searchSeleniumTest()'><b>searchSeleniumTest</b><br>Test class: testScripts.GooglePageTest</td>
 <td></td>
-<td>3</td>
-<td>testScripts.GooglePageTest@6bd61f98</td></tr>
-<tr>
-<td title='testScripts.GooglePageTest.searchCucumberTest()'><b>searchCucumberTest</b><br>Test class: testScripts.GooglePageTest</td>
-<td></td>
-<td>3</td>
-<td>testScripts.GooglePageTest@6bd61f98</td></tr>
-<tr>
-<td title='testScripts.GooglePageTest.searchAppiumTest()'><b>searchAppiumTest</b><br>Test class: testScripts.GooglePageTest</td>
-<td></td>
 <td>4</td>
-<td>testScripts.GooglePageTest@6bd61f98</td></tr>
+<td>testScripts.GooglePageTest@3f6f6701</td></tr>
 </table><p>
 </body>
 </html>

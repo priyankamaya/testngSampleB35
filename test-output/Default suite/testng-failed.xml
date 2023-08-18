@@ -5,9 +5,11 @@
     <classes>
       <class name="testScripts.GooglePageTest">
         <methods>
-          <include name="searchJavaTest"/>
+          <include name="searchCucumberTest"/>
+          <include name="setUpExtent"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="finishExtent"/>
         </methods>
       </class> <!-- testScripts.GooglePageTest -->
     </classes>
